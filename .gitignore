@@ -1,2 +1,4 @@
 .env
 OAI_CONFIG_LIST
+# Unit test / coverage reports
+.cache
