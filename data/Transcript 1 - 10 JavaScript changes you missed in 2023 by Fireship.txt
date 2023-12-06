@@ -1,0 +1,200 @@
+Transcript 1 - 10 JavaScript changes you missed in 2023 by Fireship
+
+2023 has been a wild Year my bank
+collapsed Elon bought Twitter almost all
+my friends got laid off all my favorite
+crypto Bros are going to jail Tesla
+successfully made it the DeLorean with a
+Pontiac Aztec bringing us the Cyber
+truck and chat GPT made me obsolete but
+all this good news pales in comparison
+to the changes web developers have seen
+in JavaScript land over the last year
+where almost every framework decided to
+reinvent itself in 2023 in today's video
+we'll look at 10 recent changes to
+JavaScript that you may have missed
+every year new language features get
+standardized in ecmascript at which
+point they're implemented in browsers
+one of my favorite new features this
+year is object Group by imagine you have
+an array of objects where the objects
+share a similar schema these might be
+records from a database where every
+object has a field of age you can use
+groupy to separate the children from the
+adults by defining a function that
+groups anyone under 21 into children and
+anyone over that into adults the end
+result is an object organized into
+groups that's a nice little utility but
+one I find myself using even more often
+is array two sorted along with two
+splice and two reversed JavaScript
+already had methods for sort and
+reversed but the problem is that they
+mutate the original array in place and
+that's confusing because other methods
+like map and filter don't do that
+instead they copy the array and return a
+new one with these methods you can now
+sort reverse and splice an array by
+treating the original as an immutable
+value which tends to be the more sane
+way to write your code web developers
+also got some cool updates in the form
+of brand new HTML elements like the
+search tag is a more semantic way to
+define a search box on a website which
+can replace the more generic form tag
+that's nice but the dialogue element is
+way more powerful which allows you to
+create actual modal dialogues and then
+control them with JavaScript using
+built-in methods like show modal and
+close another nice utility but that
+brings us to index 3 after years of
+begging and pleading with Apple iOS
+finally allows push notifications to
+come from web apps and that's a huge win
+for the
+0.00001% of website users who actually
+allow websites to send them push
+notifications which is most likely your
+grandpa who accidentally clicked the
+allow button and now has no idea how how
+to turn it off but now it's time to talk
+about the fun stuff Frameworks the
+world's most popular JavaScript
+framework nextjs is an entirely
+different framework than it was last
+year thanks to the app directory which
+became stable in May with version 13.4
+the most notable difference is that you
+can now fetch data directly inside react
+components thanks to server components
+which are react components that can run
+on the server the reception to the app
+directory has been somewhat mixed on one
+hand it has a lot of awesome new
+features and can simplify your code but
+many have complained about it feeling
+rushed and Half Baked kind of like the
+way they launch video games nowadays
+where they just get something out the
+door then patch it up over the next few
+years people have complained about
+having to use the used client directive
+everywhere due to Breaking existing
+react libraries people have complained
+about the slow Dev server which is
+powered by rust which is weird because
+anything powered by rust is supposed to
+be fast and people have compared its new
+server actions feature to PHP one of the
+most offensive slurs you can make
+against a JavaScript framework but the
+biggest issue is that running nextjs is
+fairly hard to do correctly outside of
+verell and that's led to projects like
+open next that take on the tedious job
+of getting it to run anywhere next is
+still the dominant meta framework but
+nujs and the view ecosystem also had a
+lot of cool updates in 2023 like its Dev
+tools these tools run directly in the
+browser and make it much easier to
+understand the structure of a complex
+application but one thing you may not
+know about n is that many of its
+components are available through the
+unified JavaScript tools ecosystem like
+if you don't care about VJs and just
+want a web server you can use Nitro to
+build a fast server with plain
+JavaScript what's funny is I think the
+VJs ecosystem has changed the least in
+2023 and as a consequence it feels like
+the most stable and predictable
+ecosystem spelt on the other hand got
+ruined in 2023 in a shocking
+announcement a couple months ago spelt
+announced a new feature called runes
+that will dramatically change the
+developer experience in version 5
+instead of defining reactive variables
+with Le there's now this thing called a
+rune which is essentially a compiler
+macro that tells the spelt compiler this
+value is reactive spelt is also getting
+rid of the Dollar Sign Co and syntax and
+stores with runes like derived and
+effect the initial response to these
+changes were somewhat mixed with some
+users feeling like these changes make
+spelt look a lot more like react which
+is the type of developer experience
+they're trying to get away from but on
+the other hand a lot of people love
+these changes and see them as necessary
+to evolve the framework in the right
+direction as a hardcore user of spelt
+myself I'm waiting for the final release
+of version 5 before I form an opinion
+the award for the most change framework
+in 2023 though goes to angular it has a
+long list of new features but the most
+notable changes for angular haters out
+there would be the new template syntax
+which provides a cleaner way to handle
+conditionals and Loops replacing things
+like ngf and ng4 in addition angular has
+also adopted signals much like all the
+other Frameworks out there and brings a
+new feature called defer views which
+enables declarative lazy loading
+directly in a template but most
+importantly angular has a brand new logo
+which was really the only thing holding
+it back from being the world's most
+popular framework in the past a lot of
+crazy changes on the front end but on
+the back end node.js has been quietly
+getting better with node.js version 20
+it released a new permissions model
+which improves security by controlling
+which features a script has access to
+very much similar to what Dino released
+a few years years ago and then with the
+release of node 21 it introduced its own
+websocket client which is based on the
+websocket API in the browser the biggest
+disruptor with backend JavaScript in
+2023 though is bun it's a new JavaScript
+runtime written in Zig that came out
+with an awesome developer experience and
+some wild claims about performance and
+quite a few bugs were discovered after
+the initial release but it still remains
+a promising new way to do backend
+JavaScript in the future and with that
+we've looked at 10 different ways
+JavaScript changed in 2023 but I almost
+forgot the biggest one of all HTM X the
+framework that showed that anyone can
+capture the imagination of the
+JavaScript ecosystem if you post
+and meme hard enough on Twitter but most
+importantly as I've shown here with
+science hmx can actually eliminate a ton
+of JavaScript compared to the status quo
+approach taken by all the major
+Frameworks it's the ideal JavaScript
+framework for the JavaScript haters and
+that's why today I'm thrilled and
+honored to present the HDMX team with
+the JavaScript framework of the Year
+award which is basically the Nobel Prize
+of JavaScript thanks for watching and I
+will see you in the next one

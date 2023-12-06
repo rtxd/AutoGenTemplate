@@ -59,6 +59,19 @@ def upload_file(path):
     return file
 
 # --------------------------------------------------------------
+# One off use of upload_file to get our docs up - uncomment when you need to upload files
+# --------------------------------------------------------------
+#script_dir = os.path.dirname(__file__) #<-- absolute dir the script is in
+#rel_path = "data\Transcript 1 - 10 JavaScript changes you missed in 2023 by Fireship.txt"
+#rel_path = "data\Transcript 2 - How programmers flex on each other by Fireship.txt"
+#rel_path = "data\Transcript 3 - Masterclass- AI-driven Development for Programmers by Fireship.txt"
+#abs_file_path = os.path.join(script_dir, rel_path)
+#print(abs_file_path)
+#file = upload_file(abs_file_path)
+#print("file id:",file.id)
+#quit()
+
+# --------------------------------------------------------------
 # Create Agents
 # --------------------------------------------------------------
 
@@ -154,14 +167,18 @@ searchAssistant.register_function(
 groupchat = autogen.GroupChat(agents=[user_proxy, retrievalAssistant], messages=[], max_round=10)
 group_chat_manager = autogen.GroupChatManager(groupchat=groupchat, llm_config={"config_list": config_list})
 
-message = """Using the suggesting recommended in the document Tweet_Like_a_Pro
-create a tweet for the following news:
-The UK has published the world’s first global guidelines for securing AI systems against cyberattacks. The new guidelines aim to ensure AI technology is developed safely and securely.
-The guidelines were developed by the UK’s National Cyber Security Centre (NCSC) and the US’ Cybersecurity and Infrastructure Security Agency (CISA). They have already secured endorsements from 17 other countries, including all G7 members.
-The guidelines provide recommendations for developers and organisations using AI to incorporate cybersecurity at every stage. This “secure by design” approach advises baking in security from the initial design phase through development, deployment, and ongoing operations.  
-Specific guidelines cover four key areas: secure design, secure development, secure deployment, and secure operation and maintenance. They suggest security behaviours and best practices for each phase.
-The launch event in London convened over 100 industry, government, and international partners. Speakers included reps from Microsoft, the Alan Turing Institute, and cyber agencies from the US, Canada, Germany, and the UK.  
+#message = """Using the suggesting recommended in the document Tweet_Like_a_Pro
+#create a tweet for the following news:
+#The UK has published the world’s first global guidelines for securing AI systems against cyberattacks. The new guidelines aim to ensure AI technology is developed safely and securely.
+#The guidelines were developed by the UK’s National Cyber Security Centre (NCSC) and the US’ Cybersecurity and Infrastructure Security Agency (CISA). They have already secured endorsements from 17 other countries, including all G7 members.
+#The guidelines provide recommendations for developers and organisations using AI to incorporate cybersecurity at every stage. This “secure by design” approach advises baking in security from the initial design phase through development, deployment, and ongoing operations.  
+#Specific guidelines cover four key areas: secure design, secure development, secure deployment, and secure operation and maintenance. They suggest security behaviours and best practices for each phase.
+#The launch event in London convened over 100 industry, government, and international partners. Speakers included reps from Microsoft, the Alan Turing Institute, and cyber agencies from the US, Canada, Germany, and the UK.  
+#"""
+
+message = """Provide a concise summary of the article Tweet Like a Pro
 """
+
 user_proxy.initiate_chat(group_chat_manager, message=message)
 quit()
 

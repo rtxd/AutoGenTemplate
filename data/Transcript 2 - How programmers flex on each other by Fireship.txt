@@ -1,0 +1,222 @@
+Transcript 2 - How programmers flex on each other by Fireship
+
+many years ago in a story I just made up
+I was architecting some highly scalable
+infrastructure when a staff engineer
+walked into my cubicle and said hey
+buddy that's a cute vs code theme you've
+got there oh thanks it's a synthwave
+with power mode enable before I could
+explain more though he cut me off and
+said you see that bug on line 234 right
+I said no that's impossible sir we have
+100 test coverage on this code well I'm
+gonna pull it up in neovim on my Arch
+desktop and uh I'll send you a PR for
+that five minutes later I get a
+notification and slack that the pr came
+through all tests are passing with 469
+lines of code removed and just one
+commit message that read optimize sub
+optimal code I then looked out the
+window and saw him driving away in his
+Tesla it was at that moment that I
+realized I had been flexed upon if
+you're a programmer who's feeling down
+one of the best ways to boost your ego
+is to flex on other Developers for
+programmers there's only two states of
+being imposter syndrome or superiority
+complex in today's video you'll learn
+how to become the best programmer the
+world has ever seen in your own mind by
+looking at 10 practical ways to flex on
+your friends and colleagues first up
+we've got the complexity Flex the
+world's greatest programmer once said in
+idiot admire's complexity a genius
+admires Simplicity luckily most people
+are not Geniuses think of how stupid the
+average person is and then realize half
+of them are stupider than that so what
+you can do is take something simple like
+a perfectly functional JavaScript
+function then add typescript to it while
+preaching the virtues of end-to-end type
+safety from there refactor it into an
+abstract Factory Singleton adapter
+decorator proxy and when nobody
+understands that just tell them they've
+never seen clean code before and should
+have read the gang of forbuck making
+them think you're some kind of
+programming God the CTO who doesn't know
+how to code will be so impressed that
+you'll get a huge raise and that brings
+us to the money Flex the amount of money
+you make is exactly tied to the amount
+of value that you bring to the world the
+level one money Flex is the junior
+developer making 50k a year who shows
+off to his old colleagues at Arby's who
+are only making 45k a year the dude in
+the cubicle next to him though did a
+better job negotiating a salary and
+makes 225k a year that dude's got a
+cousin though who works at Netflix who
+flexes on him for making 900k a year
+that dude's landlord though was was one
+of the first engineers at Uber who has a
+net worth of 25 mil who now flexes on
+social media about being a genius
+technology investor but then he gets
+flexed on by the billionaire crypto bro
+who made all his money by rug pulling
+all the level 1 flexors the circle of
+life is truly beautiful if you subscribe
+to the link in this post I may get a
+commission I'm not quite a billionaire
+yet so the way I like to flex is by
+owning YouTube premium as a lazy
+developer I'm obsessed with optimizing
+my time and by owning premium I don't
+have to watch ads on any YouTube videos
+and I can download all the JavaScript
+tutorials I want to watch offline when I
+travel on top of that it provides access
+to YouTube music so I can listen to Huey
+Lewis in the news on repeat while I code
+which actually saves me money because I
+don't need to pay for other music
+streaming services what's really awesome
+though is that YouTube has allowed me to
+offer you one month of YouTube premium
+for free I've actually been paying for
+it myself for years and it's well worth
+it if you value your time but another
+great way to demonstrate your Superior
+value is with the bimflex when you use
+Vim it elevates you to a higher plane of
+Consciousness where you can look down
+upon the poor lost Souls using tools
+like vs code IntelliJ and emacs if
+you're the real deal you won't even have
+a mouse at your computer now normally
+this is the point where I should make a
+joke about not being able to exit Vim
+but I've never really understood those
+jokes because I don't even know how to
+exit vs code but an even more potent
+Flex is your operating system if you
+want to tell people you're rich go with
+a Macintosh and combine it with the
+Apple Vision Pro to also tell people
+that you're a clown real developers
+though use Linux you can impress most
+people by simply using Ubuntu but if you
+really want to impress people you should
+pay a bunch of money to IBM to use red
+hat Enterprise Linux that's pretty
+bowler but eventually you'll find
+yourself alone at a urinal a man will
+walk in he'll turn his head and look at
+you then say these three words I use
+Arch by the way you'll immediately feel
+smaller like your distro is just not as
+well endowed as you thought not to worry
+though you're just getting flexed on by
+someone who doesn't have a life who can
+spend countless hours configuring their
+OS everybody knows that the ultimate
+distro is Windows because that tells
+people that you actually have a life and
+maybe even a girlfriend outside of
+programming but nothing says I don't
+have a life better than the GitHub Flex
+if you don't have a GitHub commit
+history that looks like this then you're
+not a real programmer and you don't care
+about open source and your profile
+should have enough Awards and badges on
+it to make you look like a North Korean
+General you can achieve these badges by
+flexing on other open source projects
+the chainsaw PR Flex is a great way to
+show the world that you're the top G of
+JavaScript what you want to do is find
+new small projects from Young
+enthusiastic developers then Fork their
+code and remove every line possible
+while making sure that all the tests
+still pass then send a vague pull
+request explaining how you cleaned up
+the code to use best practices if you
+did it properly the project will soon be
+abandoned because no programmer can face
+that amount of flexing we're losing them
+we're losing he's dying now that one is
+kind of hard to pull off if you're a
+terrible programmer but that shouldn't
+hold you back from flexing anyway
+there's an old saying that goes
+something like those who can't code
+become influencers but what you do is
+pay your eight dollars to post on X
+formerly known as Twitter then make
+outrageous hot takes that nobody could
+possibly agree with if you give advice
+that so egregiously bad you might even
+get a reply from Elon Musk himself which
+you can then Flex about on your YouTube
+channel and yes that is a real tweet
+Elon and I are pretty much best friends
+at this point now you should never take
+technical advice from someone on Twitter
+or YouTube but instead only take it
+advice from people who Flex their past
+experience if you've ever worked at a
+Fan Company it gives you the privilege
+to start every sentence with as an
+ex-facebook engineer I recommend that
+you make X bad decision working at a fan
+company is like being in a special club
+that everyone wants to get into even
+though some people say they don't want
+to because their moral compass is too
+well calibrated but in reality they're
+just hating because they didn't grind on
+Lee code enough if I ever got a job at
+Fang I would tattoo it on my forehead if
+you're not in the club though another
+way to flex as a web developer is with
+your domains my GoDaddy account is more
+valuable than my Robinhood account
+domains aren't just for failed side
+projects they're Investments that you'll
+one day hand down to your grandkids like
+best Dash SEO Dash backlink-tool.net is
+a valuable asset that any developer
+would love to get their hands on the
+ultimate Flex a programmer can do though
+is learn to farm the programmer who
+blows up his computer and joins the
+Amish is Invincible to all the flexes
+we've looked at throughout this video as
+he milks his cow and tends to his crops
+his identity is no longer tied to these
+superficial things like code quality
+GitHub Stars likes followers and even
+money as he looks at the spiderweb
+reflecting the sun it reminds him of a
+silicon ship he recognizes the inherent
+intelligence that permeates all of
+nature its beauty is so overwhelming
+that he begins to cry in that moment
+he's connected to all the people that
+lived and died before him soon enough
+he'll be dead and forgotten just like
+them the complete insignificance of his
+own existence is both terrifying and
+liberating and it was at that moment
+that he realized that the spider was
+just flexing on him
